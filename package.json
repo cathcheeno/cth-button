@@ -1,6 +1,6 @@
 {
   "name": "cth-button",
-  "version": "0.0.9",
+  "version": "0.0.0",
   "description": "Button component.",
   "main": "cth-button.js",
   "author": "cathcheeno",
@@ -13,6 +13,7 @@
     "url": "https://github.com/cathcheeno/cth-button/issues"
   },
   "dependencies": {
+    "@polymer/lit-element": "^0.5.2",
     "@polymer/polymer": "^3.0.0"
   },
   "devDependencies": {

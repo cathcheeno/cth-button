@@ -1,4 +1,4 @@
-import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
+import { LitElement, html } from '@polymer/lit-element';
 
 /**
  * `cth-button`
@@ -8,25 +8,30 @@ import {html, PolymerElement} from '@polymer/polymer/polymer-element.js';
  * @polymer
  * @demo demo/index.html
  */
-class CthButton extends PolymerElement {
-  static get template() {
+class CthButton extends LitElement {
+
+  static get properties() {
+    return {
+      theme: String
+    };
+  }
+
+  _render({ theme }) {
     return html`
       <style>
         :host {
           display: block;
+          background-color: blue;
+        }
+        .label {
+          color: white;
+          font-weight: bold;
         }
       </style>
-      <h2>Hello [[prop1]]!</h2>
+      <div class="label">Button</div>
     `;
   }
-  static get properties() {
-    return {
-      prop1: {
-        type: String,
-        value: 'cth-button',
-      },
-    };
-  }
+
 }
 
 window.customElements.define('cth-button', CthButton);
