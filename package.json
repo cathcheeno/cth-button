@@ -1,7 +1,17 @@
 {
   "name": "cth-button",
+  "version": "0.0.9",
   "description": "Button component.",
   "main": "cth-button.js",
+  "author": "cathcheeno",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cathcheeno/cth-button.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cathcheeno/cth-button/issues"
+  },
   "dependencies": {
     "@polymer/polymer": "^3.0.0"
   },
