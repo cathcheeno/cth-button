@@ -9,7 +9,7 @@ Example:
 ```
 <custom-element-demo>
   <template>
-    <link rel="import" href="cth-button.html">
+    <script type="module" src="cth-button.js" crossorigin></script>
     <next-code-block></next-code-block>
   </template>
 </custom-element-demo>
