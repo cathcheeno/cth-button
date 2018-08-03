@@ -3,18 +3,3 @@
 # \<cth-button\>
 
 Button component.
-
-Example:
-<!--
-```
-<custom-element-demo>
-  <template>
-    <script type="module" src="cth-button.js" crossorigin></script>
-    <next-code-block></next-code-block>
-  </template>
-</custom-element-demo>
-```
--->
-```html
-<cth-button></cth-button>
-```
